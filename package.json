@@ -1,0 +1,19 @@
+{
+  "name": "craft-connections",
+  "version": "0.0.1",
+  "description": "Craft Connections",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darthyoshi007/Craft-Connections.git"
+  },
+  "author": "Parth Doshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darthyoshi007/Craft-Connections/issues"
+  },
+  "homepage": "https://github.com/darthyoshi007/Craft-Connections#readme"
+}

@@ -2915,7 +2915,7 @@ ul.staggered-list li {
 footer.page-footer {
   margin-top: 20px;
   padding-top: 20px;
-  background-color: #B065C9;
+  background-color: #BC66D9;
 }
 
 footer.page-footer .footer-copyright {
@@ -7304,7 +7304,7 @@ nav ul a span.badge {
 
 nav {
   color: #fff;
-  background-color: #C174DB;
+  background-color: #D167F5;
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -7774,12 +7774,12 @@ small {
 }
 
 .card.small .card-image, .card.medium .card-image, .card.large .card-image {
-  max-height: 75%;
+  max-height: 60%;
   overflow: hidden;
 }
 
 .card.small .card-content, .card.medium .card-content, .card.large .card-content {
-  max-height: 25%;
+  max-height: 40%;
   overflow: hidden;
 }
 
@@ -7797,7 +7797,7 @@ small {
 }
 
 .card.medium {
-  height: 350px;
+  height: 400px;
 }
 
 .card.large {
@@ -8985,6 +8985,42 @@ textarea.materialize-textarea + label:after {
     width: 80%;
     width: calc(100% - 3rem);
   }
+}
+
+.input-field input[type=text]:focus + label {
+  color: #D457FF;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #C764E8;
+  box-shadow: 0 1px 0 0 #C764E8;
+}
+
+.input-field input[type=email]:focus + label {
+  color: #D457FF;
+}
+
+.input-field input[type=email]:focus {
+  border-bottom: 1px solid #C764E8;
+  box-shadow: 0 1px 0 0 #C764E8;
+}
+
+.input-field input[type=search]:focus + label {
+  color: #D457FF;
+}
+
+.input-field input[type=search]:focus {
+  border-bottom: 1px solid #C764E8;
+  box-shadow: 0 1px 0 0 #C764E8;
+}
+
+textarea.materialize-textarea:focus:not([readonly]) + label{
+  color:#D457FF;
+}
+
+textarea.materialize-textarea:focus:not([readonly]){
+  border-bottom: 1px solid #C764E8;
+  box-shadow: 0 1px 0 0 #C764E8;
 }
 
 .input-field input[type=search] {
